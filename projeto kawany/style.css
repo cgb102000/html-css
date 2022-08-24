@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+:root {
+    --fonte1: 'Passion One', cursive;
+    --fonte2: 'Titillium Web', sans-serif;
+    --fonte3: 'Dancing Script', cursive;
+    --cor1: #8C28ED;
+    --cor2: #60DB5E;
+    --cor3: #F2D75C;
+}
+
+header {
+
+    padding-top:2vw;
+    font-family: var(--fonte1);
+    font-variant: small-caps;
+    color: var(--cor2);
+}
+
+header,
+footer {
+    background-color: var(--cor1);
+    text-align: center;
+
+}
+
+header>h1 {
+    font-size: 7vw;
+
+}
+
+
+
+section>p {
+    
+    padding-top: 5%;
+    font-family: var(--fonte2);
+    text-align: center;
+
+}
+
+
+
+section {
+    font-size: 3.5vw;
+    font-size: 2em;
+    
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 2%;
+}
+
+section>p { 
+    text-align: center;
+
+    border-radius: 1em;
+    padding-bottom: 2em;
+}
+section#img01 > p{
+    text-align: left;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+section#img02 > p{
+    text-align: left;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+section.normal {
+    font-family: var(--fonte2);
+
+
+
+
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgb(75, 74, 74);
+
+    background-color: rgb(66, 66, 66);
+    color: white;
+    background-size: cover;
+}
+section#img01 {
+    background-image: url(et.jpg);
+    background-position: center left;
+   
+ }
+ 
+
+
+
+section#img02 {
+    background-image: url(jack.jpg);
+    background-position: center right;
+    margin-bottom: 0;
+}
+
+section.imagem>p {
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.777);
+    display: inline-block;
+}
+
+section>p {
+    color: black;
+    font-size: 3vw;
+    
+}
+
+nav>a {
+    
+    text-decoration: none;
+    color: var(--cor2);
+    font-size: 3vw;
+    padding: 20px;
+    
+}
+
+nav>a:hover {
+    
+           
+            
+    color: var(--cor3);
+   
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+footer{
+    height: 10vh;
+}
+footer>a{
+   
+    
+    color: white;
+}
+footer>p>a:hover{
+    color: white;
+}
+section > p {
+    color: black;
+}
+h6{
+    font-family: var(--fonte3);
+    text-align: center;
+    font-size: 3vw;
+}
+
+
