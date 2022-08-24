@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 body,
 html {
@@ -10,7 +11,8 @@ html {
 
 :root {
     --fonte1: 'Passion One', cursive;
-    --fonte2: 'Jost', sans-serif;
+    --fonte2: 'Titillium Web', sans-serif;
+    --fonte3: 'Dancing Script', cursive;
     --cor1: #8C28ED;
     --cor2: #60DB5E;
     --cor3: #F2D75C;
@@ -18,7 +20,7 @@ html {
 
 header {
 
-    padding-top: 50px;
+    padding-top:2vw;
     font-family: var(--fonte1);
     font-variant: small-caps;
     color: var(--cor2);
@@ -28,6 +30,7 @@ header,
 footer {
     background-color: var(--cor1);
     text-align: center;
+
 }
 
 header>h1 {
@@ -35,7 +38,10 @@ header>h1 {
 
 }
 
+
+
 section>p {
+    
     padding-top: 5%;
     font-family: var(--fonte2);
     text-align: center;
@@ -47,20 +53,33 @@ section>p {
 section {
     font-size: 3.5vw;
     font-size: 2em;
-    font-family: var(--fonte3);
+    
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 2%;
 }
 
-section>p {
+section>p { 
+    text-align: center;
 
     border-radius: 1em;
     padding-bottom: 2em;
 }
+section#img01 > p{
+    text-align: left;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+section#img02 > p{
+    text-align: left;
+    padding-left: 2%;
+    padding-right: 2%;
+}
 
 section.normal {
+    font-family: var(--fonte2);
+
 
 
 
@@ -76,13 +95,19 @@ section.imagem {
     color: white;
     background-size: cover;
 }
-
 section#img01 {
-   background-image: url();
-}
+    background-image: url(../imagens/et.jpg);
+    background-position: center left;
+   
+ }
+ 
+
+
 
 section#img02 {
-    background-image: url(https://artesanatoprimeiropasso.com.br/wp-content/uploads/2021/12/como-fazer-bijuteria-para-vender-1.jpg);
+    background-image: url(../imagens/Jack.jpg);
+    background-position: center right;
+    margin-bottom: 0;
 }
 
 section.imagem>p {
@@ -92,20 +117,49 @@ section.imagem>p {
     display: inline-block;
 }
 
-p {
+section>p {
     color: black;
-    font-size: 2vw;
-    font-weight: bold;
+    font-size: 3vw;
+    
 }
 
-a {
-    font-family: var(--fonte3);
+nav>a {
+    
     text-decoration: none;
     color: var(--cor2);
-    font-size: 2vw;
+    font-size: 3vw;
     padding: 20px;
+    
 }
 
-a:hover {
+nav>a:hover {
+    
+           
+            
     color: var(--cor3);
+   
 }
+a{
+    text-decoration: none;
+}
+footer{
+    height: 10vh;
+}
+footer>a{
+   
+    
+    color: white;
+}
+footer>p>a:hover{
+    color: white;
+}
+section > p {
+    color: black;
+}
+h6{
+    font-family: var(--fonte3);
+    text-align: center;
+    font-size: 3vw;
+}
+
+
