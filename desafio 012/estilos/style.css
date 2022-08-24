@@ -87,11 +87,13 @@ section.imagem{
 }
 section.imagem>p{
     
+    
     text-shadow: 1.5px 1.5px 0px black;
     background-color: rgba(0, 0, 0, 0.777);
     display: inline-block;
 }
 section#img01 {
+    color: white;
     
     
     background-image: url(https://images4.alphacoders.com/936/936378.jpg);
