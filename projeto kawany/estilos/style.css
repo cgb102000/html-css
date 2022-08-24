@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100&display=swap');
+
 body,
 html {
     margin: 0;
@@ -11,33 +12,39 @@ html {
     --fonte1: 'Passion One', cursive;
     --fonte2: 'Jost', sans-serif;
     --cor1: #8C28ED;
-    --cor2: #B4E652;
-    --cor3: #9BE0FF;
+    --cor2: #60DB5E;
+    --cor3: #F2D75C;
 }
-header{
-    
+
+header {
+
     padding-top: 50px;
     font-family: var(--fonte1);
     font-variant: small-caps;
     color: var(--cor2);
 }
+
 header,
 footer {
     background-color: var(--cor1);
     text-align: center;
 }
-header>h1{
+
+header>h1 {
     font-size: 7vw;
 
 }
-section>p{
+
+section>p {
+    padding-top: 5%;
     font-family: var(--fonte2);
-   
-}
-section{
+    text-align: center;
 
 }
-section{
+
+
+
+section {
     font-size: 3.5vw;
     font-size: 2em;
     font-family: var(--fonte3);
@@ -46,50 +53,59 @@ section{
     line-height: 2em;
     padding-left: 2%;
 }
-section >p {
-    
+
+section>p {
+
     border-radius: 1em;
     padding-bottom: 2em;
 }
-section.normal{
-    
-    
+
+section.normal {
+
+
 
     background-color: white;
     color: black;
 }
-section.imagem{
+
+section.imagem {
     background-attachment: fixed;
     box-shadow: inset 6px 6px 13px 0px rgb(75, 74, 74);
-    
+
     background-color: rgb(66, 66, 66);
     color: white;
     background-size: cover;
 }
-section#img01{
-    background-image: url(https://images7.alphacoders.com/410/410544.jpg);
+
+section#img01 {
+   background-image: url();
 }
-section#img02{
+
+section#img02 {
     background-image: url(https://artesanatoprimeiropasso.com.br/wp-content/uploads/2021/12/como-fazer-bijuteria-para-vender-1.jpg);
 }
-section.imagem>p{
-    
+
+section.imagem>p {
+
     color: white;
     background-color: rgba(0, 0, 0, 0.777);
     display: inline-block;
 }
-p{
+
+p {
     color: black;
     font-size: 2vw;
     font-weight: bold;
 }
 
-a{  font-family: var();
+a {
+    font-family: var(--fonte3);
     text-decoration: none;
     color: var(--cor2);
     font-size: 2vw;
     padding: 20px;
 }
-a:hover{
-    color: #5dc0ee;
+
+a:hover {
+    color: var(--cor3);
 }
