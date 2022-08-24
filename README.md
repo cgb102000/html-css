@@ -1,4 +1,3 @@
-<title> teste </title>
 <h1>
         HTML5 E CSS 3
     </h1>
