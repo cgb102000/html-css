@@ -24,7 +24,7 @@ html, body {
 }
 header{
 
-    background-color: black;
+    background-color: rgb(34, 4, 44);
     color: white;
     text-align: center;
 }
@@ -70,6 +70,11 @@ section.normal{
 }
 
 section.imagem{
+       
+    
+
+    
+    
     background-attachment: fixed;
     box-shadow: inset 6px 6px 13px 0px rgb(75, 74, 74);
     
@@ -99,7 +104,7 @@ section#img02 {
 
 
 footer{
-    background-color: black;
+    background-color:rgb(34, 4, 44);
     text-align: center;
     color: white;
     padding: 10px;
