@@ -3,17 +3,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 :root{
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
-    /* --fonte2: 'Passion One', cursive; */
+    --fonte2: 'Passion One', cursive; 
+    /*--fonte2: 'Bebas Neue', cursive; */
     /* --fonte2: 'Fredoka One', cursive; */
-    --fonte2: 'Staatliches', cursive;
+    /*--fonte2: 'Staatliches', cursive; */
     --fonte3: 'Sriracha', cursive;
 
 }
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 html, body {
@@ -24,10 +27,11 @@ html, body {
 }
 header{
 
-    background-color: rgb(34, 4, 44);
+    background-image: linear-gradient(to right, rgb(21, 0, 29),  rgb(70, 2, 70));
     color: white;
     text-align: center;
 }
+
 header >h1{
 
     
@@ -59,10 +63,12 @@ section{
     padding-left: 2%;
 }
 section >p {
+    
     border-radius: 3.5%;
     padding-bottom: 2em;
 }
 section.normal{
+    
     
 
     background-color: white;
@@ -70,10 +76,6 @@ section.normal{
 }
 
 section.imagem{
-       
-    
-
-    
     
     background-attachment: fixed;
     box-shadow: inset 6px 6px 13px 0px rgb(75, 74, 74);
@@ -84,6 +86,7 @@ section.imagem{
 
 }
 section.imagem>p{
+    
     text-shadow: 1.5px 1.5px 0px black;
     background-color: rgba(0, 0, 0, 0.777);
     display: inline-block;
@@ -91,22 +94,33 @@ section.imagem>p{
 section#img01 {
     
     
-    background-image: url(https://thumbs.dreamstime.com/b/abstract-dna-molecules-structure-science-technology-background-illustration-vector-119136443.jpg);
-    background-position: right center;
+    background-image: url(https://images4.alphacoders.com/936/936378.jpg);
+    background-position: top center;
 
 }
 section#img02 {
     
-    background-image: url(imagens/5039684.jpg);
-    background-position: right center;
+    background-image: url(https://i.pinimg.com/originals/bf/82/f6/bf82f6956a32819af48c2572243e8286.jpg);
+    background-position: top center;
     
 }
 
+section#img03 {
+    
+    background-image: url(https://images5.alphacoders.com/958/thumb-1920-958580.jpg);
+    background-position: top center;
+    
+}
+section#img04 {
+    
+    background-image: url(https://i.pinimg.com/originals/3b/8a/d2/3b8ad2c7b1be2caf24321c852103598a.jpg);
+    background-position: left  center;
+    
+}
 
 footer{
-    background-color:rgb(34, 4, 44);
+    background-image: linear-gradient(to top, rgb(60, 2, 83),  rgb(78, 0, 78));
     text-align: center;
     color: white;
     padding: 10px;
 }
-
