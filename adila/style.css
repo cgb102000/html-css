@@ -55,6 +55,7 @@ h1{
 .ft1{
     text-decoration: none;
     color: white;
+    
    
    
    
@@ -96,17 +97,26 @@ section#img01 > p{
     text-align: left;
     padding-left: 2%;
     padding-right: 2%;
+    text-align: center;
     
 }
 section#img02 > p{
     text-align: left;
     padding-left: 2%;
     padding-right: 2%;
+    text-align: center;
+}
+section#img03 > p{
+    text-align: left;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
 }
 
 section.normal {
-    height: 25vh;
+    
     font-family: var(--fonte2);
+    text-align: center;
     
 
 
@@ -117,6 +127,7 @@ section.normal {
 }
 
 section.imagem {
+    
     background-attachment: fixed;
     box-shadow: inset 6px 6px 13px 0px rgb(75, 74, 74);
 
@@ -128,8 +139,9 @@ section.imagem {
 }
 
 section#img01 {
+    
     background-image: url(adila6.jpg);
-    background-position:center;
+    background-position:center right; 
     
    
  }
@@ -140,7 +152,7 @@ section#img01 {
 
 section#img02 {
     background-image: url(adila5.jpg    );
-    background-position: bottom left;
+    background-position: bottom right;
     margin-bottom: 0;
 }
 section#img03 {
@@ -149,11 +161,12 @@ section#img03 {
     margin-bottom: 0;
 }
 section.imagem>p {
+    width: 55vw;
     border-radius: 1em;
 
     color: white;
     background-color: rgba(0, 0, 0, 0.777);
-    display: inline-block;
+    
 }
 
 section>p{font-size: 1.5em;
