@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+:root{
+    --fonte1:'Kaushan Script', cursive;
+    --fonte2: 'Shadows Into Light', cursive;
+    --fonte3:'Quattrocento Sans', sans-serif;
+    --cor1:#FB8A8A;
+    --cor2:#FA3E4E
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte3);
+}
+header{
+    background-color: var(--cor1);
+    text-align: center;
+    height: 35vh;
+    
+    
+}
+
+h1{
+    font-family: var(--fonte1);
+    font-size: 4em;
+    font-variant: small-caps;
+    color: white;
+    font-weight: bold;
+    text-shadow: 5px 5px 1px black;
+}
+.hd1{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 1em;
+    border-style: solid;
+    border-color: black;
+    padding: 2vh;
+    font-family: var(--fonte2);
+   
+    font-size: 1.5em;
+}
+.ft1{
+    text-decoration: none;
+    color: white;
+   
+   
+   
+    
+    font-family: var(--fonte2);
+   
+    font-size: 1.5em;
+
+}
+
+.hd1:hover{
+    color: rgb(255, 255, 255);
+    background-color: #FA3E4E;
+    border-style: none;
+    border: 1px solid white;
+    transition: 0.5s;
+    
+}
+.ft1:hover{
+    text-decoration: underline;
+    color:black;
+    transition: 0.5s;
+}
+nav{
+    margin-top: 6vh;
+}
+footer{
+    background-color: var(--cor1);
+    text-align: center;
+
+
+}
+
+section#img01 > p{
+    text-align: left;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+}
+section#img02 > p{
+    text-align: left;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+section.normal {
+    font-family: var(--fonte2);
+
+
+
+
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgb(75, 74, 74);
+
+    background-color: rgb(66, 66, 66);
+    color: white;
+    background-size: cover;
+}
+section#img01 {
+    background-image: url(adila.jpg);
+    background-position: center left;
+   
+ }
+ 
+
+
+
+section#img02 {
+    background-image: url();
+    background-position: center right;
+    margin-bottom: 0;
+}
