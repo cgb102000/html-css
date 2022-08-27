@@ -107,6 +107,7 @@ section#img02 > p{
 section.normal {
     height: 25vh;
     font-family: var(--fonte2);
+    
 
 
 
@@ -155,7 +156,7 @@ section.imagem>p {
     display: inline-block;
 }
 
-section>p{font-size: 2em;
+section>p{font-size: 1.5em;
     
 }
 div {
