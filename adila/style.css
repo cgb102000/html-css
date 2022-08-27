@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@keyframes move {
+    from {
+        left: 5%;
+    }
+    to {
+        left: 85%;
+    }
+}
 :root{
     --fonte1:'Kaushan Script', cursive;
     --fonte2: 'Shadows Into Light', cursive;
@@ -13,15 +21,18 @@
     padding: 0;
     font-family: var(--fonte3);
 }
+
 header{
+    
     background-color: var(--cor1);
     text-align: center;
-    height: 35vh;
+    height: 42vh;
     
     
 }
 
 h1{
+    
     font-family: var(--fonte1);
     font-size: 4em;
     font-variant: small-caps;
@@ -73,9 +84,13 @@ nav{
 footer{
     background-color: var(--cor1);
     text-align: center;
+    position: unset;
+   
+
 
 
 }
+
 
 section#img01 > p{
     text-align: left;
@@ -90,6 +105,7 @@ section#img02 > p{
 }
 
 section.normal {
+    height: 25vh;
     font-family: var(--fonte2);
 
 
@@ -106,10 +122,14 @@ section.imagem {
     background-color: rgb(66, 66, 66);
     color: white;
     background-size: cover;
+    
+
 }
+
 section#img01 {
-    background-image: url();
-    background-position: center left;
+    background-image: url(adila6.jpg);
+    background-position:center;
+    
    
  }
  
@@ -118,7 +138,66 @@ section#img01 {
 
 
 section#img02 {
-    background-image: url();
+    background-image: url(adila5.jpg    );
+    background-position: bottom left;
+    margin-bottom: 0;
+}
+section#img03 {
+    background-image: url(adila7.jpg    );
     background-position: center right;
     margin-bottom: 0;
 }
+section.imagem>p {
+    border-radius: 1em;
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.777);
+    display: inline-block;
+}
+
+section>p{font-size: 2em;
+    
+}
+div {
+    animation:3.5s move;
+    position: absolute;
+   
+    margin-top:35vh;
+    font-size: 10vh;
+    width: 300px;
+    right:500px;
+    
+    animation-direction: alternate-reverse;
+    
+
+    
+   top: 6%;
+
+}
+div>p{
+    text-decoration: none;
+
+    
+}
+div>p>a{
+    text-decoration: none;
+    color: pink;
+    text-shadow: 3px 3px 1px black;
+   
+}
+div>p>a:hover{
+    color: black;
+    text-shadow: 3px 3px 1px pink;
+}
+
+
+header>nav{
+    
+    margin: 0 auto;
+   
+    
+    
+   margin-top:6%;
+   
+}
+
