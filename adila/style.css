@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@keyframes move {
+    from {
+        left: 5%;
+    }
+    to {
+        left: 85%;
+    }
+}
+:root{
+    --fonte1:'Kaushan Script', cursive;
+    --fonte2: 'Shadows Into Light', cursive;
+    --fonte3:'Quattrocento Sans', sans-serif;
+    --cor1:#FB8A8A;
+    --cor2:#FA3E4E
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte3);
+}
+
+header{
+    
+    background-color: var(--cor1);
+    text-align: center;
+    height: 42vh;
+    
+    
+}
+
+h1{
+    
+    font-family: var(--fonte1);
+    font-size: 4em;
+    font-variant: small-caps;
+    color: white;
+    font-weight: bold;
+    text-shadow: 5px 5px 1px black;
+}
+.hd1{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 1em;
+    border-style: solid;
+    border-color: black;
+    padding: 2vh;
+    font-family: var(--fonte2);
+   
+    font-size: 1.5em;
+}
+.ft1{
+    text-decoration: none;
+    color: white;
+    
+   
+   
+   
+    
+    font-family: var(--fonte2);
+   
+    font-size: 1.5em;
+
+}
+
+.hd1:hover{
+    color: rgb(255, 255, 255);
+    background-color: #FA3E4E;
+    border-style: none;
+    border: 1px solid white;
+    transition: 0.5s;
+    
+}
+.ft1:hover{
+    text-decoration: underline;
+    color:black;
+    transition: 0.5s;
+}
+nav{
+    margin-top: 6vh;
+}
+footer{
+    background-color: var(--cor1);
+    text-align: center;
+    position: unset;
+   
+
+
+
+}
+
+
+section#img01 > p{
+    text-align: left;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    
+}
+section#img02 > p{
+    text-align: left;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+}
+section#img03 > p{
+    text-align: left;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+}
+
+section.normal {
+    
+    font-family: var(--fonte2);
+    text-align: center;
+    
+
+
+
+
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgb(75, 74, 74);
+
+    background-color: rgb(66, 66, 66);
+    color: white;
+    background-size: cover;
+    
+
+}
+
+section#img01 {
+    
+    background-image: url(adila6.jpg);
+    background-position:center right; 
+    
+   
+ }
+ 
+ 
+
+
+
+section#img02 {
+    background-image: url(adila5.jpg    );
+    background-position: bottom right;
+    margin-bottom: 0;
+}
+section#img03 {
+    background-image: url(adila7.jpg    );
+    background-position: center right;
+    margin-bottom: 0;
+}
+section.imagem>p {
+    width: 55vw;
+    border-radius: 1em;
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.777);
+    
+}
+
+section>p{font-size: 1.5em;
+    
+}
+div {
+    animation:3.5s move;
+    position: absolute;
+   
+    margin-top:35vh;
+    font-size: 10vh;
+    width: 300px;
+    right:500px;
+    
+    animation-direction: alternate-reverse;
+    
+
+    
+   top: 6%;
+
+}
+div>p{
+    text-decoration: none;
+
+    
+}
+div>p>a{
+    text-decoration: none;
+    color: pink;
+    text-shadow: 3px 3px 1px black;
+   
+}
+div>p>a:hover{
+    color: black;
+    text-shadow: 3px 3px 1px pink;
+}
+
+
+header>nav{
+    
+    margin: 0 auto;
+   
+    
+    
+   margin-top:6%;
+   
+}
+
