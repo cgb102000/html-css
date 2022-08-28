@@ -24,7 +24,8 @@
 
 header{
     
-    background-color: var(--cor1);
+    
+   background-image: linear-gradient(to left,#fc5462,#FB8A8A,#FB8A8A,#fc5462);
     text-align: center;
     height: 42vh;
     
@@ -68,7 +69,7 @@ h1{
 
 .hd1:hover{
     color: rgb(255, 255, 255);
-    background-color: #FA3E4E;
+    background-color: #d13b47;
     border-style: none;
     border: 1px solid white;
     transition: 0.5s;
@@ -83,9 +84,12 @@ nav{
     margin-top: 6vh;
 }
 footer{
-    background-color: var(--cor1);
+    
     text-align: center;
-    position: unset;
+    height: 17vh;
+    margin-top: 40vh;
+    background-image: linear-gradient(to left,#fc5462,#FB8A8A,#FB8A8A,#fc5462);
+    
    
 
 
@@ -117,7 +121,7 @@ section.normal {
     
     font-family: var(--fonte2);
     text-align: center;
-    
+    height: 15vh;
 
 
 
@@ -162,7 +166,9 @@ section#img03 {
 }
 section.imagem>p {
     width: 55vw;
-    border-radius: 1em;
+    border-radius: 0em 0em 1em 0em;
+    box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.068);
+   
 
     color: white;
     background-color: rgba(0, 0, 0, 0.777);
@@ -175,11 +181,12 @@ section>p{font-size: 1.5em;
 div {
     animation:3.5s move;
     position: absolute;
+    
    
     margin-top:35vh;
-    font-size: 10vh;
+    font-size: 7vh;
     width: 300px;
-    right:500px;
+    right:100%;
     
     animation-direction: alternate-reverse;
     
@@ -214,4 +221,20 @@ header>nav{
    margin-top:6%;
    
 }
+ul{
+    list-style:none;
+    padding: 2px;
+    color: white;
+    margin-top: 50px;
+    margin: 50px;
+    text-align: center;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
 
+}
