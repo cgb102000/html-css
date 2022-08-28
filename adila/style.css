@@ -17,6 +17,7 @@
     --cor2:#FA3E4E
 }
 *{
+    user-select: none;
     margin: 0;
     padding: 0;
     font-family: var(--fonte3);
@@ -25,21 +26,30 @@
 header{
     
     
+    
    background-image: linear-gradient(to left,#fc5462,#FB8A8A,#FB8A8A,#fc5462);
     text-align: center;
     height: 42vh;
     
     
+    
 }
 
+
 h1{
+   
     
     font-family: var(--fonte1);
-    font-size: 4em;
+    font-size: 5em;
+    
     font-variant: small-caps;
     color: white;
     font-weight: bold;
     text-shadow: 5px 5px 1px black;
+}
+h1:hover{
+    color: black;
+    text-shadow: 5px 5px 1px white;
 }
 .hd1{
     text-decoration: none;
@@ -237,4 +247,11 @@ a{
 a:hover{
     color: black;
 
+}
+h6
+{
+    font-family: var(--fonte2);
+    font-size: 2vh;
+    
+    
 }
