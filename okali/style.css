@@ -22,13 +22,12 @@ body {
 	background-repeat: repeat-y;
     flex-direction: column;
     font-family: principal;
-	background-image: url(giphy.gif);
+	background-image: url(giphy1.gif);
 	background-size: 100%;
 	
 }
 h1{
-   color: 
-   #dfb021;
+   color: #dfb021;
     text-shadow: 1px 1px white;}
 #btnbtn-secondarydropdown-toggle{
     color: red;
