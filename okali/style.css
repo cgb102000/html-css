@@ -34,7 +34,9 @@ h1{
     background-color: yellow;
 }
 p{color: #f1c02d;text-shadow: white;font-size:40px;
-	text-align: center;}
+	text-align: center;
+position: relative;
+bottom: 130px;}
 
 .reveal-text,
 .reveal-text::after {
