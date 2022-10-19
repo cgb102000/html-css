@@ -18,9 +18,12 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: white;
+    background-color: black;
+	background-repeat: no-repeat;
     flex-direction: column;
     font-family: principal;
+	background-image: url(giphy.gif);
+	background-size: 100%;
 }
 h1{
    color: 
