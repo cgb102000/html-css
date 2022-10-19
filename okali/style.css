@@ -24,18 +24,19 @@ body {
     font-family: principal;
 	background-image: url(giphy.gif);
 	background-size: 100%;
+	
 }
 h1{
    color: 
    #dfb021;
-    text-shadow: 2px 2px black;}
+    text-shadow: 1px 1px white;}
 #btnbtn-secondarydropdown-toggle{
     color: red;
     background-color: yellow;
 }
-p{color: #f1c02d;}
-p{font-size:40px;
-text-align: center;}
+p{color: #f1c02d;text-shadow: white;font-size:40px;
+	text-align: center;}
+
 .reveal-text,
 .reveal-text::after {
 	-webkit-animation-delay: var(--animation-delay, 2s);
@@ -68,6 +69,7 @@ text-align: center;}
 }
 
 .reveal-text::after {
+	border-radius: 15% 1% 1% 15%;
     
 		content: "";
 		position: absolute;
@@ -76,7 +78,7 @@ text-align: center;}
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background-color: #FFE547;
+		background: linear-gradient(to right, #f1c02d,#cebb81);
 		transform: scaleX(0);
 		transform-origin: 0 50%;
 		pointer-events: none;
