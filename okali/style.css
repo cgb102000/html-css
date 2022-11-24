@@ -36,7 +36,11 @@ h1{
 p{color: #f1c02d;text-shadow: white;font-size:40px;
 	text-align: center;
 position: relative;
-bottom: 130px;}
+bottom: 100px;
+}
+header{
+	margin-top: 100px;
+}
 
 .reveal-text,
 .reveal-text::after {
@@ -152,11 +156,8 @@ bottom: 130px;}
 		transform: scaleX(0);
 	}
 }
-header
-{
-    margin-top: 100px;
 
-}
+
 
 a{  
     color: black;
