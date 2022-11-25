@@ -517,7 +517,7 @@ legend+* {
     margin-right: -100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    transition: transform .6s ease-in-out
+    transition: transform .0.1s ease-in-out
 }
 
 @media (prefers-reduced-motion:reduce) {
@@ -530,6 +530,8 @@ legend+* {
 .carousel-item-prev,
 .carousel-item.active {
     display: block;
+   
+    
 
 }
 
