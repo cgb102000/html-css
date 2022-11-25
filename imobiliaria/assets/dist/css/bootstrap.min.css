@@ -501,13 +501,14 @@ legend+* {
 }
 
 .carousel-inner::after {
-    transition: 1s;
+    transition-delay: 250ms;
     display: block;
     clear: both;
     content: ""
 }
 
 .carousel-item {
+    transition-delay: 250ms;
 
     position: relative;
     display: none;
@@ -521,7 +522,7 @@ legend+* {
 
 @media (prefers-reduced-motion:reduce) {
     .carousel-item {
-        transition: none
+        transition:0.1ms ;
     }
 }
 
