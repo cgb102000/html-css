@@ -497,10 +497,11 @@ legend+* {
 
 /*Quadradinhos dos slides*/
 .carousel {
-    position: relative
+    position: relative;
 }
 
 .carousel-inner::after {
+    transition: 1s;
     display: block;
     clear: both;
     content: ""
@@ -555,7 +556,7 @@ legend+* {
 
 .carousel-control-next {
     right: 0;
-  
+    transition: 1s;
 
 }
 
@@ -567,6 +568,7 @@ legend+* {
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: 100% 100%;
+    transition: 1s;
 
 }
 
