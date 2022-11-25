@@ -13,16 +13,22 @@ body {
 .carousel-caption {
   color: white;
   text-shadow: 2px 2px 2px black;
-  
+ 
   bottom: 3rem;
   z-index: 10;
 }
 
-/* Declare heights because of positioning of img element */
+
 .carousel-item {
+  
+  background-image: url(https://images6.alphacoders.com/746/746488.jpg);
+  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
   
   height: 32rem;
 }
+
 
 
 .marketing .col-lg-4 {
@@ -30,17 +36,13 @@ body {
   margin-bottom: 1.5rem;
   text-align: center;
 }
-/* rtl:begin:ignore */
+
 .marketing .col-lg-4 p {
   
   margin-right: .75rem;
   margin-left: .75rem;
 }
-/* rtl:end:ignore */
 
-
-/* Featurettes
-------------------------- */
 
 .featurette-divider {
   
