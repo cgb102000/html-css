@@ -20,8 +20,10 @@ body {
 
 
 .carousel-item {
+  background-attachment: scroll;
+  background-position: top;
   
-  background-image: url(https://images6.alphacoders.com/746/746488.jpg);
+  background-image: url(../imobiliaria/assets/imagens/fundo.jpg);
   background-size: 100%;
   background-size: cover;
   background-repeat: no-repeat;
