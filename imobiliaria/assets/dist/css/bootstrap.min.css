@@ -54,14 +54,6 @@ body {
     -webkit-tap-highlight-color: transparent
 }
 
-hr {
-    margin: 1rem 0;
-    color: inherit;
-    border: 0;
-    border-top: 1px solid;
-    opacity: .25
-}
-
 .h1,
 .h2,
 .h3,
@@ -332,80 +324,6 @@ button:not(:disabled) {
     padding: 0;
     border-style: none
 }
-
-textarea {
-    resize: vertical
-}
-
-fieldset {
-    min-width: 0;
-    padding: 0;
-    margin: 0;
-    border: 0
-}
-
-
-
-@media (min-width:1200px) {
-    legend {
-        font-size: 1.5rem
-    }
-}
-
-legend+* {
-    clear: left
-}
-
-::-webkit-datetime-edit-day-field,
-::-webkit-datetime-edit-fields-wrapper,
-::-webkit-datetime-edit-hour-field,
-::-webkit-datetime-edit-minute,
-::-webkit-datetime-edit-month-field,
-::-webkit-datetime-edit-text,
-::-webkit-datetime-edit-year-field {
-    padding: 0
-}
-
-::-webkit-inner-spin-button {
-    height: auto
-}
-
-[type=search] {
-    outline-offset: -2px;
-    -webkit-appearance: textfield
-}
-
-::-webkit-search-decoration {
-    -webkit-appearance: none
-}
-
-::-webkit-color-swatch-wrapper {
-    padding: 0
-}
-
-::-webkit-file-upload-button {
-    font: inherit;
-    -webkit-appearance: button
-}
-
-::file-selector-button {
-    font: inherit;
-    -webkit-appearance: button
-}
-
-output {
-    display: inline-block
-}
-
-iframe {
-    border: 0
-}
-
-summary {
-    display: list-item;
-    cursor: pointer
-}
-
 progress {
     vertical-align: baseline
 }
