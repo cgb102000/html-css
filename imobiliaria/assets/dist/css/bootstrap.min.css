@@ -821,7 +821,10 @@ progress {
 
     .col-md-5 {
         flex: 0 0 auto;
-        width: 41.66666667%
+        width: 41.66666667%;
+        display: flex;
+        
+    
     }
 
     .col-md-6 {

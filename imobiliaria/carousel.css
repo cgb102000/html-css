@@ -75,6 +75,7 @@ body {
   .featurette-heading {
     
     
+    
     font-size: 50px;
   }
 }
@@ -85,8 +86,13 @@ body {
   .featurette-heading {
     
     margin-top: 7rem;
+    
+  }
+  .featurette-heading fw-normal lh-1{
+    margin-left: 50%;
   }
 }
+
 img{
-  max-width: 460px;
+  max-width: 500px;
 }
