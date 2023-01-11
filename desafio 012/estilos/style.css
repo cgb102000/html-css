@@ -26,8 +26,9 @@ html, body {
     
 }
 header{
+    white-space: nowrap;
 
-    background-image: linear-gradient(to right, rgb(21, 0, 29),  rgb(70, 2, 70));
+    background-image: linear-gradient(to right, rgb(0, 0, 0),  rgb(70, 2, 70));
     color: white;
     text-align: center;
 }
@@ -43,16 +44,38 @@ header >h1{
 header>p{
     padding-bottom: 50px;
 }
+
 a{
     color: white;
     text-decoration: none;
-    font-weight: bolder;
+   
 
 }
-header a:hover , footer a:hover{
-    text-decoration: underline;
-    color: rgba(173, 222, 222, 0.862);
+.container-fluid{
+    background-color:rgb(70, 2, 70) ;
+   
 }
+.navbar-brand{
+    color: white;
+}
+.navbar-brand:hover{
+    
+    color: greenyellow;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: greenyellow;
+}
+
+.nav-item:hover{
+   
+
+    
+    
+}
+
 section{
     font-size: 3.5vw;
     font-size: 2em;
