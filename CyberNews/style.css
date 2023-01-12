@@ -116,3 +116,10 @@ footer>a{
 footer>a:hover{
     color: red;
 }
+
+.card-img-top:hover{
+    scale: 1.1;
+}
+#card-final:hover{
+    scale: 1.1;
+}
