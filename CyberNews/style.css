@@ -120,6 +120,9 @@ footer>a:hover{
 .card-img-top:hover{
     scale: 1.1;
 }
+#card-final{
+    max-width: 500px;
+}
 #card-final:hover{
     scale: 1.1;
 }
