@@ -79,8 +79,9 @@ section#img02 {
     border: 1px solid white;
 }
 #botoes:hover{
-    background-color: rgb(109, 10, 10);
-    border: 1px solid gray;
+    background-color: rgb(131, 4, 4);
+    border: 1px solid rgb(255, 255, 255);
+    scale: 1.1;
 }
 .card-img-top{
    
@@ -100,9 +101,7 @@ section#img02 {
     font-size: 1rem;
     
 }
-#carousel1{background-image: url(bg1.png);
 
-}
 
 
 footer{
